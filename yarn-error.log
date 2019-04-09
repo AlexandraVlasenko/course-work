@@ -1,8 +1,8 @@
 Arguments: 
-  /home/alexandra/.nvm/versions/node/v10.15.1/bin/node /usr/share/yarn/bin/yarn.js
+  /home/alexandra/.nvm/versions/node/v10.15.1/bin/node /usr/share/yarn/bin/yarn.js add react-router
 
 PATH: 
-  /home/alexandra/.nvm/versions/node/v10.15.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/alexandra/Android/Sdk/tools
+  /home/alexandra/.nvm/versions/node/v10.15.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/alexandra/Android/Sdk/tools:/home/alexandra/Android/Sdk/tools
 
 Yarn version: 
   1.15.2
@@ -31,7 +31,8 @@ npm manifest:
       "morgan": "^1.9.1",
       "react": "^16.8.5",
       "react-dom": "^16.8.5",
-      "react-scripts": "2.1.8"
+      "react-scripts": "2.1.8",
+      "styled-components": "^4.2.0"
     },
     "scripts": {
       "start": "react-scripts start",
@@ -48,7 +49,7 @@ npm manifest:
       "not ie <= 11",
       "not op_mini all"
     ],
-    "proxy": "http://localhost:3002",
+    "proxy": "http://localhost:3001",
     "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
     "main": "index.js",
     "devDependencies": {},

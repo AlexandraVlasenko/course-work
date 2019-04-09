@@ -1,0 +1,44 @@
+Arguments: 
+  /home/alexandra/.nvm/versions/node/v10.15.1/bin/node /usr/share/yarn/bin/yarn.js add react-router react-router-dom
+
+PATH: 
+  /home/alexandra/.nvm/versions/node/v10.15.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/alexandra/Android/Sdk/tools:/home/alexandra/Android/Sdk/tools
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/alexandra/Documents/dev/fullstack-app/backend/node_modules/asap'
+
+npm manifest: 
+  {
+    "name": "fullstack_app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "concurrently": "^4.0.1",
+      "cors": "^2.8.5",
+      "express": "^4.16.4",
+      "mongoose": "^5.4.20"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
